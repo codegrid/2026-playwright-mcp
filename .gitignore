@@ -1,0 +1,25 @@
+# 依存パッケージ
+node_modules/
+
+# Playwright の実行結果・レポート
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Playwright MCP が出力するスナップショット・コンソールログ
+.playwright-mcp/
+
+# Claude Code のローカル設定（.claude/skills/ は追跡する）
+.claude/settings.local.json
+
+# ローカル固有のトークンを含む MCP 設定
+.mcp-extension.json
+
+# 環境変数
+.env
+.env.*
+!.env.example
+
+# OS 生成ファイル
+.DS_Store
